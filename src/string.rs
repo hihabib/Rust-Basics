@@ -2,6 +2,8 @@
 // String = Growable, heap-allocated data structure - Use when you need to modify or own string data
 
 pub fn run() {
+    // let text = "Hello ";
+    // let mut str = String::from(text);
     let mut str = String::from("Hello ");
 
     println!("Length: {}",  str.len());
