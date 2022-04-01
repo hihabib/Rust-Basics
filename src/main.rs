@@ -1,5 +1,7 @@
-mod print;
+// mod print;
+mod vars;
 
 fn main() {
-    print::habib();
+    // print::habib();
+    vars::run();
 }
